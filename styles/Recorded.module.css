@@ -1,0 +1,122 @@
+@font-face {
+    font-family: poppinsBold;
+    src: url(/Poppins-Bold.ttf);
+}
+
+.container{
+    background-image: url(/recorded.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5rem; */
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 2%;
+    justify-content: space-between;
+    width: 100vw;
+}
+  
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo h1{
+    color: var(--white-color);
+    font-family: poppinsBold;
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+
+.navbar .name{
+    color: var(--primary-blue);
+    font-family: poppinsBold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checklogo{
+    background: var(--primary-blue);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.check_text{
+    color: var(--white-color);
+    font-family: poppinsBold;
+    font-size: 40px;
+}
+
+.button{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button{
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--primary-blue);
+    border: none;
+    color: var(--white-color);
+    font-family: poppinsBold;
+    font-weight: lighter;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.button button:hover{
+    opacity: 70%;
+}
+
+.motto{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .motto p{
+    font-family: poppinsBold;
+    color: var(--white-color);
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+  
+  .motto p span{
+    color: var(--primary-blue);
+  }
+  
+  .motto p .tech{
+    color: var(--secondary-blue);
+  }

@@ -1,0 +1,123 @@
+@font-face {
+  font-family: poppinsBold;
+  src: url(/Poppins-Bold.ttf);
+}
+
+.container{
+  background-image: url(/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 2%;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo a{
+  cursor: default;
+}
+
+.logo h2{
+  color: var(--white-color);
+  font-family: poppinsBold;
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+
+.navbar .name{
+  color: var(--primary-blue);
+  font-family: poppinsBold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  gap: 2rem;
+}
+
+.content .welcome{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.content .welcome h1{
+  color: var(--white-color);
+  font-family: poppinsBold;
+  text-transform: capitalize;
+  font-size: 54px;
+}
+
+.content .welcome h1 span{
+  color: var(--primary-blue);
+}
+
+.welcome button{
+  width: 200px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary-blue);
+  color: var(--white-color);
+  font-family: poppinsBold;
+  font-weight: lighter;
+  transition-duration: 0.3s;
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.welcome button:hover{
+  opacity: 70%;
+}
+
+.motto{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.motto p{
+  font-family: poppinsBold;
+  color: var(--white-color);
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.motto p span{
+  color: var(--primary-blue);
+}
+
+.motto p .tech{
+  color: var(--secondary-blue);
+}
+  
+  

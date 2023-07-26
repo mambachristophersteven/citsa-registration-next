@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+:root{
+  --white-color: rgba(255, 255, 255, 1);
+  --primary-blue: rgba(50, 138, 241, 1);
+  --secondary-blue: rgba(164, 208, 255, 1);
+  --form-background: rgba(32, 55, 92, 0.95);
+  --close-button-background: rgba(255, 255, 255, 0.15);
+  --close-button-border: rgba(164, 208, 255, 1);
+  --yellow-color: rgba(250, 225, 0, 1);
+  --pink-color: rgba(242, 63, 149, 1);
+  --rectangles-background-color: rgba(32, 55, 92, 0.8);
+  --orange-color: rgba(250, 135, 0, 1);
+  --green-color: rgba(5, 250, 0, 1);
+  --cyan-color: rgba(0, 250, 250, 1);
+  --gray-color: rgba(133, 135, 136, 0.76);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
